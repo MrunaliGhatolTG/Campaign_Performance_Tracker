@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# IANA timezone names for the delivery schedule. Windows ships no tz database,
+# so zoneinfo cannot resolve "Africa/Lagos" or "Asia/Kolkata" without this.
+tzdata>=2024.1

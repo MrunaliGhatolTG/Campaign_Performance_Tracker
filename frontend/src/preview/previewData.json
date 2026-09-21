@@ -1,0 +1,4702 @@
+{
+ "brands": {
+  "default": "all",
+  "brand_source": "first word of campaign_name",
+  "row_grain": "Ad set",
+  "brands": [
+   {
+    "key": "all",
+    "label": "All brands"
+   },
+   {
+    "key": "Indomie",
+    "label": "Indomie"
+   },
+   {
+    "key": "Nutrify",
+    "label": "Nutrify"
+   }
+  ]
+ },
+ "platforms": {
+  "default": "all",
+  "available": true,
+  "platform_source": "publisher_platform",
+  "platforms": [
+   {
+    "key": "all",
+    "label": "All platforms"
+   },
+   {
+    "key": "facebook",
+    "label": "Facebook"
+   },
+   {
+    "key": "instagram",
+    "label": "Instagram"
+   }
+  ]
+ },
+ "thresholds": {
+  "mode_default": "objective",
+  "flat": 1.5,
+  "thresholds": [
+   {
+    "family": "awareness",
+    "label": "Awareness",
+    "threshold_pct": 0.8
+   },
+   {
+    "family": "video",
+    "label": "Video views",
+    "threshold_pct": 0.8
+   },
+   {
+    "family": "sales",
+    "label": "Sales",
+    "threshold_pct": 1.0
+   },
+   {
+    "family": "leads",
+    "label": "Leads",
+    "threshold_pct": 1.0
+   },
+   {
+    "family": "app",
+    "label": "App",
+    "threshold_pct": 1.0
+   },
+   {
+    "family": "engagement",
+    "label": "Engagement",
+    "threshold_pct": 1.2
+   },
+   {
+    "family": "traffic",
+    "label": "Traffic",
+    "threshold_pct": 1.5
+   }
+  ]
+ },
+ "data": {
+  "Nutrify": {
+   "low-ctr": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "objective",
+    "ads_evaluated": 11,
+    "ads_alerting": 4,
+    "portfolio_ctr": 2.0682,
+    "spend_on_alerting_ads": 159.82,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% Traffic threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.0,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "low-ctr-flat": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "flat",
+    "ads_evaluated": 11,
+    "ads_alerting": 5,
+    "portfolio_ctr": 2.0682,
+    "spend_on_alerting_ads": 191.83,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480966",
+      "ad_name": "Reels 15s | School morning",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.0586,
+      "ctr_computed": 1.0573,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 9458,
+      "clicks": 100,
+      "spend": 32.01,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480966 under Campaign 2385914403 has a CTR of 1.06%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.5,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "creative-fatigue": {
+    "alert": true,
+    "mode": "fatigue",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_decline_pct": 25.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 0,
+    "ads_skipped_low_volume": 1,
+    "spend_at_risk": 742.05,
+    "steepest_decline_pct": 50.7,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480931",
+      "ad_name": "Reels 15s | Mum & child",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "decline_pct": 50.7,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 347590,
+      "impressions_recent": 95035,
+      "clicks_baseline": 13524,
+      "clicks_recent": 1823,
+      "spend_recent": 361.6,
+      "cpm_baseline": 3.45,
+      "cpm_recent": 3.8,
+      "cpm_change_pct": 10.16,
+      "frequency_daily_recent": 2.46,
+      "frequency_daily_baseline": 1.56,
+      "frequency_change_pct": 57.6,
+      "frequency_window_ceiling": 6.64,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480931 under Campaign 2385914403 has fallen from 3.89% to 1.92% CTR (51% down) over the last 3 day(s), on 361 spend."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480938",
+      "ad_name": "Static | Pack shot naira price",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "decline_pct": 49.06,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 374595,
+      "impressions_recent": 98872,
+      "clicks_baseline": 14548,
+      "clicks_recent": 1956,
+      "spend_recent": 380.45,
+      "cpm_baseline": 3.91,
+      "cpm_recent": 3.85,
+      "cpm_change_pct": -1.57,
+      "frequency_daily_recent": 2.64,
+      "frequency_daily_baseline": 1.74,
+      "frequency_change_pct": 51.7,
+      "frequency_window_ceiling": 6.87,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480938 under Campaign 2385914402 has fallen from 3.88% to 1.98% CTR (49% down) over the last 3 day(s), on 380 spend."
+     }
+    ],
+    "watchlist": [],
+    "distribution": [
+     {
+      "ad_id": "120217480931",
+      "decline_pct": 50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217480938",
+      "decline_pct": 49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217480980",
+      "decline_pct": 6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "decline_pct": 1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "decline_pct": -2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "decline_pct": -6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480987",
+      "decline_pct": -18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480959",
+      "decline_pct": -44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "decline_pct": -61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "decline_pct": -64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   },
+   "winners": {
+    "alert": true,
+    "mode": "winners",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_rise_pct": 20.0,
+    "min_ctr_pct": 2.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 1,
+    "spend_behind_winners": 649.37,
+    "steepest_rise_pct": 64.49,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914404",
+      "campaign_name": "Nutrify_Sales_SouthWest",
+      "ad_id": "120217480952",
+      "ad_name": "UGC | Breakfast bowl",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "rise_pct": 64.49,
+      "decline_pct": -64.49,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 306760,
+      "impressions_recent": 93536,
+      "clicks_baseline": 6127,
+      "clicks_recent": 3073,
+      "spend_recent": 334.5,
+      "cpm_baseline": 3.8,
+      "cpm_recent": 3.58,
+      "cpm_change_pct": -5.79,
+      "frequency_daily_recent": 1.88,
+      "frequency_daily_baseline": 1.88,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480952 under Campaign 2385914404 has climbed from 2.00% to 3.29% CTR (64% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480945",
+      "ad_name": "Carousel | 3 flavours",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "rise_pct": 61.36,
+      "decline_pct": -61.36,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 327483,
+      "impressions_recent": 85259,
+      "clicks_baseline": 6546,
+      "clicks_recent": 2750,
+      "spend_recent": 314.87,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.69,
+      "cpm_change_pct": 0.36,
+      "frequency_daily_recent": 1.9,
+      "frequency_daily_baseline": 1.9,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480945 under Campaign 2385914402 has climbed from 2.00% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480959",
+      "ad_name": "Story | Retailer proof",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "rise_pct": 44.11,
+      "decline_pct": -44.11,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 183397,
+      "impressions_recent": 37956,
+      "clicks_baseline": 1938,
+      "clicks_recent": 578,
+      "spend_recent": 158.53,
+      "cpm_baseline": 3.98,
+      "cpm_recent": 4.18,
+      "cpm_change_pct": 4.91,
+      "frequency_daily_recent": 1.75,
+      "frequency_daily_baseline": 1.75,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480959 under Campaign 2385914402 has climbed from 1.06% to 1.52% CTR (44% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217480952",
+      "rise_pct": 64.49,
+      "change_pct": 64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217480945",
+      "rise_pct": 61.36,
+      "change_pct": 61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217480959",
+      "rise_pct": 44.11,
+      "change_pct": 44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217480987",
+      "rise_pct": 18.86,
+      "change_pct": 18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "rise_pct": 6.19,
+      "change_pct": 6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "rise_pct": 2.27,
+      "change_pct": 2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "rise_pct": -1.76,
+      "change_pct": -1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480980",
+      "rise_pct": -6.8,
+      "change_pct": -6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "rise_pct": -49.06,
+      "change_pct": -49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "rise_pct": -50.7,
+      "change_pct": -50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   }
+  },
+  "nutrify": {
+   "low-ctr": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "objective",
+    "ads_evaluated": 11,
+    "ads_alerting": 4,
+    "portfolio_ctr": 2.0682,
+    "spend_on_alerting_ads": 159.82,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% Traffic threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.0,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "low-ctr-flat": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "flat",
+    "ads_evaluated": 11,
+    "ads_alerting": 5,
+    "portfolio_ctr": 2.0682,
+    "spend_on_alerting_ads": 191.83,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480966",
+      "ad_name": "Reels 15s | School morning",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.0586,
+      "ctr_computed": 1.0573,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 9458,
+      "clicks": 100,
+      "spend": 32.01,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480966 under Campaign 2385914403 has a CTR of 1.06%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.5,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "creative-fatigue": {
+    "alert": true,
+    "mode": "fatigue",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_decline_pct": 25.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 0,
+    "ads_skipped_low_volume": 1,
+    "spend_at_risk": 742.05,
+    "steepest_decline_pct": 50.7,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480931",
+      "ad_name": "Reels 15s | Mum & child",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "decline_pct": 50.7,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 347590,
+      "impressions_recent": 95035,
+      "clicks_baseline": 13524,
+      "clicks_recent": 1823,
+      "spend_recent": 361.6,
+      "cpm_baseline": 3.45,
+      "cpm_recent": 3.8,
+      "cpm_change_pct": 10.16,
+      "frequency_daily_recent": 2.46,
+      "frequency_daily_baseline": 1.56,
+      "frequency_change_pct": 57.6,
+      "frequency_window_ceiling": 6.64,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480931 under Campaign 2385914403 has fallen from 3.89% to 1.92% CTR (51% down) over the last 3 day(s), on 361 spend."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480938",
+      "ad_name": "Static | Pack shot naira price",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "decline_pct": 49.06,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 374595,
+      "impressions_recent": 98872,
+      "clicks_baseline": 14548,
+      "clicks_recent": 1956,
+      "spend_recent": 380.45,
+      "cpm_baseline": 3.91,
+      "cpm_recent": 3.85,
+      "cpm_change_pct": -1.57,
+      "frequency_daily_recent": 2.64,
+      "frequency_daily_baseline": 1.74,
+      "frequency_change_pct": 51.7,
+      "frequency_window_ceiling": 6.87,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480938 under Campaign 2385914402 has fallen from 3.88% to 1.98% CTR (49% down) over the last 3 day(s), on 380 spend."
+     }
+    ],
+    "watchlist": [],
+    "distribution": [
+     {
+      "ad_id": "120217480931",
+      "decline_pct": 50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217480938",
+      "decline_pct": 49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217480980",
+      "decline_pct": 6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "decline_pct": 1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "decline_pct": -2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "decline_pct": -6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480987",
+      "decline_pct": -18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480959",
+      "decline_pct": -44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "decline_pct": -61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "decline_pct": -64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   },
+   "winners": {
+    "alert": true,
+    "mode": "winners",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_rise_pct": 20.0,
+    "min_ctr_pct": 2.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 1,
+    "spend_behind_winners": 649.37,
+    "steepest_rise_pct": 64.49,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914404",
+      "campaign_name": "Nutrify_Sales_SouthWest",
+      "ad_id": "120217480952",
+      "ad_name": "UGC | Breakfast bowl",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "rise_pct": 64.49,
+      "decline_pct": -64.49,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 306760,
+      "impressions_recent": 93536,
+      "clicks_baseline": 6127,
+      "clicks_recent": 3073,
+      "spend_recent": 334.5,
+      "cpm_baseline": 3.8,
+      "cpm_recent": 3.58,
+      "cpm_change_pct": -5.79,
+      "frequency_daily_recent": 1.88,
+      "frequency_daily_baseline": 1.88,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480952 under Campaign 2385914404 has climbed from 2.00% to 3.29% CTR (64% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480945",
+      "ad_name": "Carousel | 3 flavours",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "rise_pct": 61.36,
+      "decline_pct": -61.36,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 327483,
+      "impressions_recent": 85259,
+      "clicks_baseline": 6546,
+      "clicks_recent": 2750,
+      "spend_recent": 314.87,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.69,
+      "cpm_change_pct": 0.36,
+      "frequency_daily_recent": 1.9,
+      "frequency_daily_baseline": 1.9,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480945 under Campaign 2385914402 has climbed from 2.00% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480959",
+      "ad_name": "Story | Retailer proof",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "rise_pct": 44.11,
+      "decline_pct": -44.11,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 183397,
+      "impressions_recent": 37956,
+      "clicks_baseline": 1938,
+      "clicks_recent": 578,
+      "spend_recent": 158.53,
+      "cpm_baseline": 3.98,
+      "cpm_recent": 4.18,
+      "cpm_change_pct": 4.91,
+      "frequency_daily_recent": 1.75,
+      "frequency_daily_baseline": 1.75,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480959 under Campaign 2385914402 has climbed from 1.06% to 1.52% CTR (44% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217480952",
+      "rise_pct": 64.49,
+      "change_pct": 64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217480945",
+      "rise_pct": 61.36,
+      "change_pct": 61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217480959",
+      "rise_pct": 44.11,
+      "change_pct": 44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217480987",
+      "rise_pct": 18.86,
+      "change_pct": 18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "rise_pct": 6.19,
+      "change_pct": 6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "rise_pct": 2.27,
+      "change_pct": 2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "rise_pct": -1.76,
+      "change_pct": -1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480980",
+      "rise_pct": -6.8,
+      "change_pct": -6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "rise_pct": -49.06,
+      "change_pct": -49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "rise_pct": -50.7,
+      "change_pct": -50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "OK"
+     }
+    ],
+    "brand": "Nutrify",
+    "brand_label": "Nutrify",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   }
+  },
+  "Indomie": {
+   "low-ctr": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "objective",
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "portfolio_ctr": 2.0825,
+    "spend_on_alerting_ads": 115.25,
+    "weakest_ctr": 0.7324,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% Traffic threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 0.8,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "low-ctr-flat": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "flat",
+    "ads_evaluated": 10,
+    "ads_alerting": 3,
+    "portfolio_ctr": 2.0825,
+    "spend_on_alerting_ads": 181.23,
+    "weakest_ctr": 0.7324,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481067",
+      "ad_name": "Story | Chef cameo",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.1827,
+      "ctr_computed": 1.1805,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 15332,
+      "clicks": 181,
+      "spend": 65.98,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481067 under Campaign 2385914403 has a CTR of 1.18%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 1.5,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "creative-fatigue": {
+    "alert": true,
+    "mode": "fatigue",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_decline_pct": 25.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 0,
+    "spend_at_risk": 678.26,
+    "steepest_decline_pct": 50.38,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481036",
+      "ad_name": "Static | Retailer testimonial",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "decline_pct": 50.38,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 369337,
+      "impressions_recent": 92824,
+      "clicks_baseline": 14434,
+      "clicks_recent": 1800,
+      "spend_recent": 328.5,
+      "cpm_baseline": 3.84,
+      "cpm_recent": 3.54,
+      "cpm_change_pct": -7.75,
+      "frequency_daily_recent": 2.61,
+      "frequency_daily_baseline": 1.71,
+      "frequency_change_pct": 52.5,
+      "frequency_window_ceiling": 6.25,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481036 under Campaign 2385914402 has fallen from 3.91% to 1.94% CTR (50% down) over the last 3 day(s), on 328 spend."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481043",
+      "ad_name": "Reels 10s | Nutrition claim",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "decline_pct": 50.31,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 348392,
+      "impressions_recent": 96096,
+      "clicks_baseline": 13570,
+      "clicks_recent": 1860,
+      "spend_recent": 349.76,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.64,
+      "cpm_change_pct": -0.97,
+      "frequency_daily_recent": 2.36,
+      "frequency_daily_baseline": 1.46,
+      "frequency_change_pct": 61.5,
+      "frequency_window_ceiling": 6.99,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481043 under Campaign 2385914404 has fallen from 3.90% to 1.94% CTR (50% down) over the last 3 day(s), on 349 spend."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "WATCH",
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "decline_pct": 13.19,
+      "p_value": 0.00671,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 177579,
+      "impressions_recent": 43076,
+      "clicks_baseline": 1738,
+      "clicks_recent": 366,
+      "spend_recent": 171.69,
+      "cpm_baseline": 3.9,
+      "cpm_recent": 3.99,
+      "cpm_change_pct": 2.15,
+      "frequency_daily_recent": 1.82,
+      "frequency_daily_baseline": 1.82,
+      "frequency_change_pct": -0.0,
+      "frequency_window_ceiling": 4.53,
+      "saturating": false,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue WATCH: Ad set 120217481008 under Campaign 2385914402 has fallen from 0.98% to 0.85% CTR (13% down) over the last 3 day(s), on 171 spend."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481036",
+      "decline_pct": 50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481043",
+      "decline_pct": 50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481008",
+      "decline_pct": 13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "WATCH"
+     },
+     {
+      "ad_id": "120217481081",
+      "decline_pct": 0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "decline_pct": -1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "decline_pct": -2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481015",
+      "decline_pct": -8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481050",
+      "decline_pct": -45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "decline_pct": -61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "decline_pct": -61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   },
+   "winners": {
+    "alert": true,
+    "mode": "winners",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_rise_pct": 20.0,
+    "min_ctr_pct": 2.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 0,
+    "spend_behind_winners": 655.01,
+    "steepest_rise_pct": 61.4,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481029",
+      "ad_name": "UGC | Lunchbox hero",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "rise_pct": 61.4,
+      "decline_pct": -61.4,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 326479,
+      "impressions_recent": 82356,
+      "clicks_baseline": 6504,
+      "clicks_recent": 2648,
+      "spend_recent": 308.98,
+      "cpm_baseline": 3.57,
+      "cpm_recent": 3.75,
+      "cpm_change_pct": 5.21,
+      "frequency_daily_recent": 1.49,
+      "frequency_daily_baseline": 1.49,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481029 under Campaign 2385914404 has climbed from 1.99% to 3.22% CTR (61% up) over the last 3 day(s), with room to grow."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Lagos",
+      "ad_id": "120217481098",
+      "ad_name": "Reels 15s | Family dinner",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "rise_pct": 61.05,
+      "decline_pct": -61.05,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 316959,
+      "impressions_recent": 79666,
+      "clicks_baseline": 6359,
+      "clicks_recent": 2574,
+      "spend_recent": 346.03,
+      "cpm_baseline": 3.77,
+      "cpm_recent": 4.34,
+      "cpm_change_pct": 15.19,
+      "frequency_daily_recent": 1.73,
+      "frequency_daily_baseline": 1.73,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481098 under Campaign 2385914403 has climbed from 2.01% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_Nationwide",
+      "ad_id": "120217481050",
+      "ad_name": "Carousel | 3 for less",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "rise_pct": 45.6,
+      "decline_pct": -45.6,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 167623,
+      "impressions_recent": 49197,
+      "clicks_baseline": 1741,
+      "clicks_recent": 744,
+      "spend_recent": 178.67,
+      "cpm_baseline": 3.73,
+      "cpm_recent": 3.63,
+      "cpm_change_pct": -2.68,
+      "frequency_daily_recent": 1.77,
+      "frequency_daily_baseline": 1.77,
+      "frequency_change_pct": -0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481050 under Campaign 2385914402 has climbed from 1.04% to 1.51% CTR (46% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481029",
+      "rise_pct": 61.4,
+      "change_pct": 61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481098",
+      "rise_pct": 61.05,
+      "change_pct": 61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481050",
+      "rise_pct": 45.6,
+      "change_pct": 45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217481015",
+      "rise_pct": 8.25,
+      "change_pct": 8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "rise_pct": 2.8,
+      "change_pct": 2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "rise_pct": 1.53,
+      "change_pct": 1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "rise_pct": -0.3,
+      "change_pct": -0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481008",
+      "rise_pct": -13.19,
+      "change_pct": -13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "rise_pct": -50.31,
+      "change_pct": -50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "rise_pct": -50.38,
+      "change_pct": -50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   }
+  },
+  "indomie": {
+   "low-ctr": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "objective",
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "portfolio_ctr": 2.0825,
+    "spend_on_alerting_ads": 115.25,
+    "weakest_ctr": 0.7324,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% Traffic threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 0.8,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "low-ctr-flat": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "flat",
+    "ads_evaluated": 10,
+    "ads_alerting": 3,
+    "portfolio_ctr": 2.0825,
+    "spend_on_alerting_ads": 181.23,
+    "weakest_ctr": 0.7324,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481067",
+      "ad_name": "Story | Chef cameo",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.1827,
+      "ctr_computed": 1.1805,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 15332,
+      "clicks": 181,
+      "spend": 65.98,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481067 under Campaign 2385914403 has a CTR of 1.18%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 1.5,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "creative-fatigue": {
+    "alert": true,
+    "mode": "fatigue",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_decline_pct": 25.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 0,
+    "spend_at_risk": 678.26,
+    "steepest_decline_pct": 50.38,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481036",
+      "ad_name": "Static | Retailer testimonial",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "decline_pct": 50.38,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 369337,
+      "impressions_recent": 92824,
+      "clicks_baseline": 14434,
+      "clicks_recent": 1800,
+      "spend_recent": 328.5,
+      "cpm_baseline": 3.84,
+      "cpm_recent": 3.54,
+      "cpm_change_pct": -7.75,
+      "frequency_daily_recent": 2.61,
+      "frequency_daily_baseline": 1.71,
+      "frequency_change_pct": 52.5,
+      "frequency_window_ceiling": 6.25,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481036 under Campaign 2385914402 has fallen from 3.91% to 1.94% CTR (50% down) over the last 3 day(s), on 328 spend."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481043",
+      "ad_name": "Reels 10s | Nutrition claim",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "decline_pct": 50.31,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 348392,
+      "impressions_recent": 96096,
+      "clicks_baseline": 13570,
+      "clicks_recent": 1860,
+      "spend_recent": 349.76,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.64,
+      "cpm_change_pct": -0.97,
+      "frequency_daily_recent": 2.36,
+      "frequency_daily_baseline": 1.46,
+      "frequency_change_pct": 61.5,
+      "frequency_window_ceiling": 6.99,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481043 under Campaign 2385914404 has fallen from 3.90% to 1.94% CTR (50% down) over the last 3 day(s), on 349 spend."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "WATCH",
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "decline_pct": 13.19,
+      "p_value": 0.00671,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 177579,
+      "impressions_recent": 43076,
+      "clicks_baseline": 1738,
+      "clicks_recent": 366,
+      "spend_recent": 171.69,
+      "cpm_baseline": 3.9,
+      "cpm_recent": 3.99,
+      "cpm_change_pct": 2.15,
+      "frequency_daily_recent": 1.82,
+      "frequency_daily_baseline": 1.82,
+      "frequency_change_pct": -0.0,
+      "frequency_window_ceiling": 4.53,
+      "saturating": false,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue WATCH: Ad set 120217481008 under Campaign 2385914402 has fallen from 0.98% to 0.85% CTR (13% down) over the last 3 day(s), on 171 spend."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481036",
+      "decline_pct": 50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481043",
+      "decline_pct": 50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481008",
+      "decline_pct": 13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "WATCH"
+     },
+     {
+      "ad_id": "120217481081",
+      "decline_pct": 0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "decline_pct": -1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "decline_pct": -2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481015",
+      "decline_pct": -8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481050",
+      "decline_pct": -45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "decline_pct": -61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "decline_pct": -61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   },
+   "winners": {
+    "alert": true,
+    "mode": "winners",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_rise_pct": 20.0,
+    "min_ctr_pct": 2.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 10,
+    "ads_alerting": 2,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 0,
+    "spend_behind_winners": 655.01,
+    "steepest_rise_pct": 61.4,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481029",
+      "ad_name": "UGC | Lunchbox hero",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "rise_pct": 61.4,
+      "decline_pct": -61.4,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 326479,
+      "impressions_recent": 82356,
+      "clicks_baseline": 6504,
+      "clicks_recent": 2648,
+      "spend_recent": 308.98,
+      "cpm_baseline": 3.57,
+      "cpm_recent": 3.75,
+      "cpm_change_pct": 5.21,
+      "frequency_daily_recent": 1.49,
+      "frequency_daily_baseline": 1.49,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481029 under Campaign 2385914404 has climbed from 1.99% to 3.22% CTR (61% up) over the last 3 day(s), with room to grow."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Lagos",
+      "ad_id": "120217481098",
+      "ad_name": "Reels 15s | Family dinner",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "rise_pct": 61.05,
+      "decline_pct": -61.05,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 316959,
+      "impressions_recent": 79666,
+      "clicks_baseline": 6359,
+      "clicks_recent": 2574,
+      "spend_recent": 346.03,
+      "cpm_baseline": 3.77,
+      "cpm_recent": 4.34,
+      "cpm_change_pct": 15.19,
+      "frequency_daily_recent": 1.73,
+      "frequency_daily_baseline": 1.73,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481098 under Campaign 2385914403 has climbed from 2.01% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_Nationwide",
+      "ad_id": "120217481050",
+      "ad_name": "Carousel | 3 for less",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "rise_pct": 45.6,
+      "decline_pct": -45.6,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 167623,
+      "impressions_recent": 49197,
+      "clicks_baseline": 1741,
+      "clicks_recent": 744,
+      "spend_recent": 178.67,
+      "cpm_baseline": 3.73,
+      "cpm_recent": 3.63,
+      "cpm_change_pct": -2.68,
+      "frequency_daily_recent": 1.77,
+      "frequency_daily_baseline": 1.77,
+      "frequency_change_pct": -0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481050 under Campaign 2385914402 has climbed from 1.04% to 1.51% CTR (46% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481029",
+      "rise_pct": 61.4,
+      "change_pct": 61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481098",
+      "rise_pct": 61.05,
+      "change_pct": 61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481050",
+      "rise_pct": 45.6,
+      "change_pct": 45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217481015",
+      "rise_pct": 8.25,
+      "change_pct": 8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "rise_pct": 2.8,
+      "change_pct": 2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "rise_pct": 1.53,
+      "change_pct": 1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "rise_pct": -0.3,
+      "change_pct": -0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481008",
+      "rise_pct": -13.19,
+      "change_pct": -13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "rise_pct": -50.31,
+      "change_pct": -50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "rise_pct": -50.38,
+      "change_pct": -50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "OK"
+     }
+    ],
+    "brand": "Indomie",
+    "brand_label": "Indomie",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   }
+  },
+  "all": {
+   "low-ctr": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "objective",
+    "ads_evaluated": 21,
+    "ads_alerting": 6,
+    "portfolio_ctr": 2.0749,
+    "spend_on_alerting_ads": 275.07,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "Awareness",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 0.8,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 0.80% Awareness threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% Traffic threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "Traffic",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% Traffic threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 0.8,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.0,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 0.8,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.0,
+      "status": "OK"
+     }
+    ],
+    "brand": "all",
+    "brand_label": "All brands",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "low-ctr-flat": {
+    "alert": true,
+    "mode": "ctr",
+    "period": "2026-08-30",
+    "threshold_pct": 1.5,
+    "threshold_mode": "flat",
+    "ads_evaluated": 21,
+    "ads_alerting": 8,
+    "portfolio_ctr": 2.0749,
+    "spend_on_alerting_ads": 373.06,
+    "weakest_ctr": 0.0,
+    "ctr_unit_detected": "percent",
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914405",
+      "campaign_name": "Nutrify_Traffic_Lagos",
+      "ad_id": "120217481022",
+      "ad_name": "Static | Shelf takeover",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.0,
+      "ctr_computed": 0.0,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 214,
+      "clicks": 0,
+      "spend": 0.92,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481022 under Campaign 2385914405 has a CTR of 0.00%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Nationwide",
+      "ad_id": "120217480980",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.6017,
+      "ctr_computed": 0.6027,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 20075,
+      "clicks": 121,
+      "spend": 65.02,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480980 under Campaign 2385914403 has a CTR of 0.60%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481015",
+      "ad_name": "Reels 20s | Jollof recipe",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 0.7324,
+      "ctr_computed": 0.7305,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13689,
+      "clicks": 100,
+      "spend": 53.12,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481015 under Campaign 2385914403 has a CTR of 0.73%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 0.8507,
+      "ctr_computed": 0.848,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 17335,
+      "clicks": 147,
+      "spend": 62.13,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481008 under Campaign 2385914402 has a CTR of 0.85%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480966",
+      "ad_name": "Reels 15s | School morning",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.0586,
+      "ctr_computed": 1.0573,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 9458,
+      "clicks": 100,
+      "spend": 32.01,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480966 under Campaign 2385914403 has a CTR of 1.06%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Nationwide",
+      "ad_id": "120217481067",
+      "ad_name": "Story | Chef cameo",
+      "objective": "OUTCOME_AWARENESS",
+      "objective_label": "OUTCOME_AWARENESS",
+      "period": "2026-08-30",
+      "ctr": 1.1827,
+      "ctr_computed": 1.1805,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 15332,
+      "clicks": 181,
+      "spend": 65.98,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217481067 under Campaign 2385914403 has a CTR of 1.18%, which is below the 1.50% OUTCOME_AWARENESS threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480973",
+      "ad_name": "Static | Ramadan bundle",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2017,
+      "ctr_computed": 1.1997,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 13253,
+      "clicks": 159,
+      "spend": 44.05,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480973 under Campaign 2385914402 has a CTR of 1.20%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480987",
+      "ad_name": "Static | Market stall",
+      "objective": "OUTCOME_TRAFFIC",
+      "objective_label": "OUTCOME_TRAFFIC",
+      "period": "2026-08-30",
+      "ctr": 1.2421,
+      "ctr_computed": 1.2391,
+      "ctr_mismatch": false,
+      "threshold_pct": 1.5,
+      "status": "ALERT",
+      "impressions": 14042,
+      "clicks": 174,
+      "spend": 49.83,
+      "source_rows": 2,
+      "message": "Low CTR Alert: Ad set 120217480987 under Campaign 2385914402 has a CTR of 1.24%, which is below the 1.50% OUTCOME_TRAFFIC threshold."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217481022",
+      "ctr": 0.0,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480980",
+      "ctr": 0.6017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481015",
+      "ctr": 0.7324,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481008",
+      "ctr": 0.8507,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480966",
+      "ctr": 1.0586,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481067",
+      "ctr": 1.1827,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480973",
+      "ctr": 1.2017,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217480987",
+      "ctr": 1.2421,
+      "threshold": 1.5,
+      "status": "ALERT"
+     },
+     {
+      "ad_id": "120217481050",
+      "ctr": 1.5203,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480959",
+      "ctr": 1.5278,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "ctr": 1.8985,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "ctr": 1.9147,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "ctr": 1.967,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "ctr": 1.9736,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "ctr": 2.4085,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "ctr": 2.4305,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "ctr": 2.697,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "ctr": 3.177,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "ctr": 3.2113,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "ctr": 3.2245,
+      "threshold": 1.5,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "ctr": 3.2969,
+      "threshold": 1.5,
+      "status": "OK"
+     }
+    ],
+    "brand": "all",
+    "brand_label": "All brands",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true,
+    "thresholds": [
+     {
+      "family": "awareness",
+      "label": "Awareness",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "video",
+      "label": "Video views",
+      "threshold_pct": 0.8
+     },
+     {
+      "family": "sales",
+      "label": "Sales",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "leads",
+      "label": "Leads",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "app",
+      "label": "App",
+      "threshold_pct": 1.0
+     },
+     {
+      "family": "engagement",
+      "label": "Engagement",
+      "threshold_pct": 1.2
+     },
+     {
+      "family": "traffic",
+      "label": "Traffic",
+      "threshold_pct": 1.5
+     }
+    ]
+   },
+   "creative-fatigue": {
+    "alert": true,
+    "mode": "fatigue",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_decline_pct": 25.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 20,
+    "ads_alerting": 4,
+    "ads_watch": 1,
+    "ads_skipped_low_volume": 1,
+    "spend_at_risk": 1420.31,
+    "steepest_decline_pct": 50.7,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914403",
+      "campaign_name": "Nutrify_Awareness_Lagos+Abuja",
+      "ad_id": "120217480931",
+      "ad_name": "Reels 15s | Mum & child",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "decline_pct": 50.7,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 347590,
+      "impressions_recent": 95035,
+      "clicks_baseline": 13524,
+      "clicks_recent": 1823,
+      "spend_recent": 361.6,
+      "cpm_baseline": 3.45,
+      "cpm_recent": 3.8,
+      "cpm_change_pct": 10.16,
+      "frequency_daily_recent": 2.46,
+      "frequency_daily_baseline": 1.56,
+      "frequency_change_pct": 57.6,
+      "frequency_window_ceiling": 6.64,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480931 under Campaign 2385914403 has fallen from 3.89% to 1.92% CTR (51% down) over the last 3 day(s), on 361 spend."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481036",
+      "ad_name": "Static | Retailer testimonial",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "decline_pct": 50.38,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 369337,
+      "impressions_recent": 92824,
+      "clicks_baseline": 14434,
+      "clicks_recent": 1800,
+      "spend_recent": 328.5,
+      "cpm_baseline": 3.84,
+      "cpm_recent": 3.54,
+      "cpm_change_pct": -7.75,
+      "frequency_daily_recent": 2.61,
+      "frequency_daily_baseline": 1.71,
+      "frequency_change_pct": 52.5,
+      "frequency_window_ceiling": 6.25,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481036 under Campaign 2385914402 has fallen from 3.91% to 1.94% CTR (50% down) over the last 3 day(s), on 328 spend."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481043",
+      "ad_name": "Reels 10s | Nutrition claim",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "decline_pct": 50.31,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 348392,
+      "impressions_recent": 96096,
+      "clicks_baseline": 13570,
+      "clicks_recent": 1860,
+      "spend_recent": 349.76,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.64,
+      "cpm_change_pct": -0.97,
+      "frequency_daily_recent": 2.36,
+      "frequency_daily_baseline": 1.46,
+      "frequency_change_pct": 61.5,
+      "frequency_window_ceiling": 6.99,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217481043 under Campaign 2385914404 has fallen from 3.90% to 1.94% CTR (50% down) over the last 3 day(s), on 349 spend."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480938",
+      "ad_name": "Static | Pack shot naira price",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "FATIGUED",
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "decline_pct": 49.06,
+      "p_value": 0.0,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 374595,
+      "impressions_recent": 98872,
+      "clicks_baseline": 14548,
+      "clicks_recent": 1956,
+      "spend_recent": 380.45,
+      "cpm_baseline": 3.91,
+      "cpm_recent": 3.85,
+      "cpm_change_pct": -1.57,
+      "frequency_daily_recent": 2.64,
+      "frequency_daily_baseline": 1.74,
+      "frequency_change_pct": 51.7,
+      "frequency_window_ceiling": 6.87,
+      "saturating": true,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue FATIGUED: Ad set 120217480938 under Campaign 2385914402 has fallen from 3.88% to 1.98% CTR (49% down) over the last 3 day(s), on 380 spend."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_SouthWest",
+      "ad_id": "120217481008",
+      "ad_name": "Story | Price drop",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "WATCH",
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "decline_pct": 13.19,
+      "p_value": 0.00671,
+      "significant": true,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 177579,
+      "impressions_recent": 43076,
+      "clicks_baseline": 1738,
+      "clicks_recent": 366,
+      "spend_recent": 171.69,
+      "cpm_baseline": 3.9,
+      "cpm_recent": 3.99,
+      "cpm_change_pct": 2.15,
+      "frequency_daily_recent": 1.82,
+      "frequency_daily_baseline": 1.82,
+      "frequency_change_pct": -0.0,
+      "frequency_window_ceiling": 4.53,
+      "saturating": false,
+      "ctr_mismatch": false,
+      "message": "Creative Fatigue WATCH: Ad set 120217481008 under Campaign 2385914402 has fallen from 0.98% to 0.85% CTR (13% down) over the last 3 day(s), on 171 spend."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217480931",
+      "decline_pct": 50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481036",
+      "decline_pct": 50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481043",
+      "decline_pct": 50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217480938",
+      "decline_pct": 49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "FATIGUED"
+     },
+     {
+      "ad_id": "120217481008",
+      "decline_pct": 13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "WATCH"
+     },
+     {
+      "ad_id": "120217480980",
+      "decline_pct": 6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "decline_pct": 1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "decline_pct": 0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "decline_pct": -1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "decline_pct": -2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "decline_pct": -2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "decline_pct": -6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481015",
+      "decline_pct": -8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480987",
+      "decline_pct": -18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480959",
+      "decline_pct": -44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481050",
+      "decline_pct": -45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481098",
+      "decline_pct": -61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480945",
+      "decline_pct": -61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481029",
+      "decline_pct": -61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480952",
+      "decline_pct": -64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "OK"
+     }
+    ],
+    "brand": "all",
+    "brand_label": "All brands",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   },
+   "winners": {
+    "alert": true,
+    "mode": "winners",
+    "latest_period": "2026-08-30",
+    "window_start": "2026-08-17",
+    "days_in_window": 14,
+    "recent_days": 3,
+    "baseline_days": 11,
+    "min_rise_pct": 20.0,
+    "min_ctr_pct": 2.0,
+    "max_p_value": 0.05,
+    "min_impressions_each": 1000,
+    "ads_evaluated": 20,
+    "ads_alerting": 4,
+    "ads_watch": 2,
+    "ads_skipped_low_volume": 1,
+    "spend_behind_winners": 1304.38,
+    "steepest_rise_pct": 64.49,
+    "ctr_mismatches": 0,
+    "findings": [
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914404",
+      "campaign_name": "Nutrify_Sales_SouthWest",
+      "ad_id": "120217480952",
+      "ad_name": "UGC | Breakfast bowl",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "rise_pct": 64.49,
+      "decline_pct": -64.49,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 306760,
+      "impressions_recent": 93536,
+      "clicks_baseline": 6127,
+      "clicks_recent": 3073,
+      "spend_recent": 334.5,
+      "cpm_baseline": 3.8,
+      "cpm_recent": 3.58,
+      "cpm_change_pct": -5.79,
+      "frequency_daily_recent": 1.88,
+      "frequency_daily_baseline": 1.88,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480952 under Campaign 2385914404 has climbed from 2.00% to 3.29% CTR (64% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914404",
+      "campaign_name": "Indomie_Sales_Lagos",
+      "ad_id": "120217481029",
+      "ad_name": "UGC | Lunchbox hero",
+      "objective": "OUTCOME_SALES",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "rise_pct": 61.4,
+      "decline_pct": -61.4,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 326479,
+      "impressions_recent": 82356,
+      "clicks_baseline": 6504,
+      "clicks_recent": 2648,
+      "spend_recent": 308.98,
+      "cpm_baseline": 3.57,
+      "cpm_recent": 3.75,
+      "cpm_change_pct": 5.21,
+      "frequency_daily_recent": 1.49,
+      "frequency_daily_baseline": 1.49,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481029 under Campaign 2385914404 has climbed from 1.99% to 3.22% CTR (61% up) over the last 3 day(s), with room to grow."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_Nationwide",
+      "ad_id": "120217480945",
+      "ad_name": "Carousel | 3 flavours",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "rise_pct": 61.36,
+      "decline_pct": -61.36,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 327483,
+      "impressions_recent": 85259,
+      "clicks_baseline": 6546,
+      "clicks_recent": 2750,
+      "spend_recent": 314.87,
+      "cpm_baseline": 3.68,
+      "cpm_recent": 3.69,
+      "cpm_change_pct": 0.36,
+      "frequency_daily_recent": 1.9,
+      "frequency_daily_baseline": 1.9,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480945 under Campaign 2385914402 has climbed from 2.00% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     },
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914403",
+      "campaign_name": "Indomie_Awareness_Lagos",
+      "ad_id": "120217481098",
+      "ad_name": "Reels 15s | Family dinner",
+      "objective": "OUTCOME_AWARENESS",
+      "latest_period": "2026-08-30",
+      "status": "SCALE",
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "rise_pct": 61.05,
+      "decline_pct": -61.05,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": true,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 316959,
+      "impressions_recent": 79666,
+      "clicks_baseline": 6359,
+      "clicks_recent": 2574,
+      "spend_recent": 346.03,
+      "cpm_baseline": 3.77,
+      "cpm_recent": 4.34,
+      "cpm_change_pct": 15.19,
+      "frequency_daily_recent": 1.73,
+      "frequency_daily_baseline": 1.73,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481098 under Campaign 2385914403 has climbed from 2.01% to 3.23% CTR (61% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "watchlist": [
+     {
+      "brand": "Indomie",
+      "campaign_id": "2385914402",
+      "campaign_name": "Indomie_Traffic_Nationwide",
+      "ad_id": "120217481050",
+      "ad_name": "Carousel | 3 for less",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "rise_pct": 45.6,
+      "decline_pct": -45.6,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 167623,
+      "impressions_recent": 49197,
+      "clicks_baseline": 1741,
+      "clicks_recent": 744,
+      "spend_recent": 178.67,
+      "cpm_baseline": 3.73,
+      "cpm_recent": 3.63,
+      "cpm_change_pct": -2.68,
+      "frequency_daily_recent": 1.77,
+      "frequency_daily_baseline": 1.77,
+      "frequency_change_pct": -0.0,
+      "headroom": true,
+      "cheaper": true,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217481050 under Campaign 2385914402 has climbed from 1.04% to 1.51% CTR (46% up) over the last 3 day(s), with room to grow and a flat-or-falling CPM."
+     },
+     {
+      "brand": "Nutrify",
+      "campaign_id": "2385914402",
+      "campaign_name": "Nutrify_Traffic_SouthEast",
+      "ad_id": "120217480959",
+      "ad_name": "Story | Retailer proof",
+      "objective": "OUTCOME_TRAFFIC",
+      "latest_period": "2026-08-30",
+      "status": "RISING",
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "rise_pct": 44.11,
+      "decline_pct": -44.11,
+      "p_value": 0.0,
+      "significant": true,
+      "strong": false,
+      "min_ctr_pct": 2.0,
+      "baseline_days": 11,
+      "recent_days": 3,
+      "impressions_baseline": 183397,
+      "impressions_recent": 37956,
+      "clicks_baseline": 1938,
+      "clicks_recent": 578,
+      "spend_recent": 158.53,
+      "cpm_baseline": 3.98,
+      "cpm_recent": 4.18,
+      "cpm_change_pct": 4.91,
+      "frequency_daily_recent": 1.75,
+      "frequency_daily_baseline": 1.75,
+      "frequency_change_pct": 0.0,
+      "headroom": true,
+      "cheaper": false,
+      "ctr_mismatch": false,
+      "message": "Scale candidate: Ad set 120217480959 under Campaign 2385914402 has climbed from 1.06% to 1.52% CTR (44% up) over the last 3 day(s), with room to grow."
+     }
+    ],
+    "distribution": [
+     {
+      "ad_id": "120217480952",
+      "rise_pct": 64.49,
+      "change_pct": 64.49,
+      "ctr_baseline": 1.9973,
+      "ctr_recent": 3.2854,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481029",
+      "rise_pct": 61.4,
+      "change_pct": 61.4,
+      "ctr_baseline": 1.9922,
+      "ctr_recent": 3.2153,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217480945",
+      "rise_pct": 61.36,
+      "change_pct": 61.36,
+      "ctr_baseline": 1.9989,
+      "ctr_recent": 3.2255,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481098",
+      "rise_pct": 61.05,
+      "change_pct": 61.05,
+      "ctr_baseline": 2.0063,
+      "ctr_recent": 3.231,
+      "status": "SCALE"
+     },
+     {
+      "ad_id": "120217481050",
+      "rise_pct": 45.6,
+      "change_pct": 45.6,
+      "ctr_baseline": 1.0386,
+      "ctr_recent": 1.5123,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217480959",
+      "rise_pct": 44.11,
+      "change_pct": 44.11,
+      "ctr_baseline": 1.0567,
+      "ctr_recent": 1.5228,
+      "status": "RISING"
+     },
+     {
+      "ad_id": "120217480987",
+      "rise_pct": 18.86,
+      "change_pct": 18.86,
+      "ctr_baseline": 1.0101,
+      "ctr_recent": 1.2006,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481015",
+      "rise_pct": 8.25,
+      "change_pct": 8.25,
+      "ctr_baseline": 0.6408,
+      "ctr_recent": 0.6936,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480994",
+      "rise_pct": 6.19,
+      "change_pct": 6.19,
+      "ctr_baseline": 2.3975,
+      "ctr_recent": 2.5461,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481074",
+      "rise_pct": 2.8,
+      "change_pct": 2.8,
+      "ctr_baseline": 2.5017,
+      "ctr_recent": 2.5719,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480973",
+      "rise_pct": 2.27,
+      "change_pct": 2.27,
+      "ctr_baseline": 1.0772,
+      "ctr_recent": 1.1017,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481067",
+      "rise_pct": 1.53,
+      "change_pct": 1.53,
+      "ctr_baseline": 1.0937,
+      "ctr_recent": 1.1105,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481081",
+      "rise_pct": -0.3,
+      "change_pct": -0.3,
+      "ctr_baseline": 2.4945,
+      "ctr_recent": 2.4869,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480966",
+      "rise_pct": -1.76,
+      "change_pct": -1.76,
+      "ctr_baseline": 1.0909,
+      "ctr_recent": 1.0718,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480980",
+      "rise_pct": -6.8,
+      "change_pct": -6.8,
+      "ctr_baseline": 0.6398,
+      "ctr_recent": 0.5963,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481008",
+      "rise_pct": -13.19,
+      "change_pct": -13.19,
+      "ctr_baseline": 0.9787,
+      "ctr_recent": 0.8497,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480938",
+      "rise_pct": -49.06,
+      "change_pct": -49.06,
+      "ctr_baseline": 3.8837,
+      "ctr_recent": 1.9783,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481043",
+      "rise_pct": -50.31,
+      "change_pct": -50.31,
+      "ctr_baseline": 3.895,
+      "ctr_recent": 1.9356,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217481036",
+      "rise_pct": -50.38,
+      "change_pct": -50.38,
+      "ctr_baseline": 3.9081,
+      "ctr_recent": 1.9392,
+      "status": "OK"
+     },
+     {
+      "ad_id": "120217480931",
+      "rise_pct": -50.7,
+      "change_pct": -50.7,
+      "ctr_baseline": 3.8908,
+      "ctr_recent": 1.9182,
+      "status": "OK"
+     }
+    ],
+    "brand": "all",
+    "brand_label": "All brands",
+    "platform": "all",
+    "platform_label": "All platforms",
+    "platform_available": true,
+    "table": "dbo.meta_all_brands_gold",
+    "brand_source": "first word of campaign_name",
+    "entity": "adset",
+    "entity_label": "Ad set",
+    "frequency_available": true
+   }
+  }
+ }
+}

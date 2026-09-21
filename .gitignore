@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and local state — never commit these.
+# backend/.gitignore covers these too; this is the second layer.
+.env
+.env.*
+!.env.example
+!.env.api
+backend/data/
+backend/static/
+
+# Noise
+*.log
+.DS_Store
+Thumbs.db
+
+# A stray npm lockfile left in backend/ by running npm in the wrong directory.
+# There is no package.json there; it is not part of the project.
+backend/package-lock.json
