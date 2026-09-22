@@ -51,11 +51,10 @@ export default function SchedulePage({ schedule, setSchedule, brands, state, sam
   return (
     <div className="results">
       {sample ? (
-        <Notice title="Preview build — nothing here is really scheduled" bad>
-          This page is running on the in-browser mock, so Save writes nothing to
-          the server and no mail is ever sent, whatever time and address you set.
-          Start the app with <code>npm run dev:api</code> and use that tab to set
-          a schedule that actually delivers.
+        <Notice title="Demo — scheduled delivery is switched off here">
+          This is a demonstration running on sample data, so the schedule below can
+          be explored but nothing is saved and no email is sent. In the live
+          deployment the brief is emailed automatically on the schedule you set.
         </Notice>
       ) : null}
 
