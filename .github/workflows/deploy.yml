@@ -36,6 +36,10 @@ jobs:
           # project site lives at /<repo>/
           VITE_BASE: /${{ github.event.repository.name }}/
       - uses: actions/configure-pages@v5
+        with:
+          # Create the Pages site on the first run instead of failing with
+          # "Get Pages site failed ... Not Found" when it does not exist yet.
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           # paths here are relative to the workspace root, not frontend/
